@@ -11,9 +11,9 @@ function inSo() {
                     count++;
                 }
             }
-            if (count === 0 && i > 1) {
+            if (count === 0 && i > 1 && i !== 4) {
                 console.log(i);
-                soNguyenTo = i + " ";
+                soNguyenTo += i + " ";
             }
             document.getElementById("inSo").innerHTML = soNguyenTo;
         }
